@@ -2,16 +2,9 @@
 
 A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Key terms
+- Widget: The basic building block of the Flutter app's user interface. Everything in Flutter is a widget.
+- Layout: How the visual elements are arranged in an app.
+- Navigator: A widget that manages a stack of route objects and provides methods for navigating between routes.
+- Route: An abstraction for a screen or page in a Flutter app.
+- Form: A group of input fields with validation logic.
