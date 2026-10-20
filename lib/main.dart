@@ -17,6 +17,14 @@ class MyApp extends StatelessWidget {
                 ),
                 body: const Column(
                     children: const <Widget>[
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: const<Widget>[
+                                Icon(Icons.star, color: Colors.blue),
+                                Icon(Icons.favorite, color: Colors.red),
+                                Icon(Icons.thumb_up, color: Colors.green),
+                            ]
+                        ),
                         Text('Welcome to Flutter!'),
                         Text('Building a layout is easy.'),
                     ]
